@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "AzurePractice1"
+  },
+  "hostingPlanName": {
+    "value": "AzurePractice1"
+  },
+  "siteLocation": {
+    "value": "North Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "95e31cef-f287-431d-9e62-c848f9f59d35"
+  },
+  "resourceGroup": {
+    "value": "AzurePractice1"
+  }
+}

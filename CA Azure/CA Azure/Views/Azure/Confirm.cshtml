@@ -1,0 +1,40 @@
+﻿@model CA_Azure.Models.AzureCosts
+
+@{
+    ViewBag.Title = "Confirm";
+}
+
+<h2>Confirm</h2>
+
+<div>
+    <h4>AzureCosts</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(Model=>Model.instanceRedundancy)
+        </dt>
+        <dd>
+            @Html.DisplayFor(Model=>Model.instanceRedundancy)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.storageInGB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.storageInGB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Cost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cost)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
